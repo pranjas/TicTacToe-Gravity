@@ -14,6 +14,8 @@
 		5BECACE4218C83B5002C1503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BECACE3218C83B5002C1503 /* Assets.xcassets */; };
 		5BECACE7218C83B5002C1503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BECACE5218C83B5002C1503 /* LaunchScreen.storyboard */; };
 		5BECACF2218C83B6002C1503 /* TicTacToe_GravityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BECACF1218C83B6002C1503 /* TicTacToe_GravityTests.swift */; };
+		5BECAD01218C8499002C1503 /* TicTacToeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BECAD00218C8499002C1503 /* TicTacToeCell.swift */; };
+		5BECAD03218C875B002C1503 /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BECAD02218C875B002C1503 /* TicTacToe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		5BECACED218C83B6002C1503 /* TicTacToe-GravityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TicTacToe-GravityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BECACF1218C83B6002C1503 /* TicTacToe_GravityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe_GravityTests.swift; sourceTree = "<group>"; };
 		5BECACF3218C83B6002C1503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BECAD00218C8499002C1503 /* TicTacToeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeCell.swift; sourceTree = "<group>"; };
+		5BECAD02218C875B002C1503 /* TicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TicTacToe.swift; path = model/TicTacToe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				5BECACE5218C83B5002C1503 /* LaunchScreen.storyboard */,
 				5BECACE8218C83B6002C1503 /* Info.plist */,
 				5BECACE0218C83B2002C1503 /* TicTacToe_Gravity.xcdatamodeld */,
+				5BECAD00218C8499002C1503 /* TicTacToeCell.swift */,
+				5BECAD02218C875B002C1503 /* TicTacToe.swift */,
 			);
 			path = "TicTacToe-Gravity";
 			sourceTree = "<group>";
@@ -201,8 +207,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BECACE2218C83B2002C1503 /* TicTacToe_Gravity.xcdatamodeld in Sources */,
+				5BECAD01218C8499002C1503 /* TicTacToeCell.swift in Sources */,
 				5BECACDC218C83B2002C1503 /* ViewController.swift in Sources */,
 				5BECACDA218C83B2002C1503 /* AppDelegate.swift in Sources */,
+				5BECAD03218C875B002C1503 /* TicTacToe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
